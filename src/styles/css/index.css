@@ -6817,4 +6817,102 @@ nav.navbar {
         margin-left: 23px;
         font-weight: bold; }
 
+/**====================================
+==================HOME=================
+======================================*/
+.Home .Head {
+  color: #FFF;
+  padding: 65px 122px;
+  height: 529px;
+  width: 100%;
+  background: url("/images/background.png"); }
+  .Home .Head h1 {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: bold; }
+  .Home .Head .Logo {
+    float: right;
+    margin-top: -20px; }
+    .Home .Head .Logo img {
+      width: 105px;
+      display: block; }
+    .Home .Head .Logo span {
+      float: right;
+      padding-top: 10px;
+      font-size: 10px;
+      line-height: 11px; }
+  .Home .Head > img {
+    margin-top: 80px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.14); }
+  .Home .Head .Form-head {
+    margin-top: 25px; }
+    .Home .Head .Form-head input {
+      border: 0;
+      border-bottom: 2px solid #FFF;
+      padding: 0 42px 10px 2px;
+      background: transparent;
+      color: #FFF;
+      width: 496px;
+      font-size: 30px;
+      line-height: 35px;
+      margin-right: -40px; }
+    .Home .Head .Form-head span {
+      vertical-align: bottom; }
+      .Home .Head .Form-head span > svg {
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 8px;
+        height: 41px;
+        width: 41px;
+        border: 2px solid #FFF; }
+.Home .card {
+  position: absolute;
+  top: 252px;
+  right: 149px;
+  color: #FFF;
+  height: 447px;
+  width: 450px;
+  border-radius: 8px;
+  background: linear-gradient(138.15deg, #5900FF 0%, #7D00B2 100%);
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.14);
+  border-color: transparent; }
+  .Home .card .card-body {
+    padding: 32px 32px 24px; }
+  .Home .card .card-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 45px;
+    text-transform: uppercase; }
+  .Home .card label {
+    font-size: 13px;
+    margin-bottom: 5px; }
+  .Home .card .card-footer {
+    background-color: #F8972E;
+    color: #FFF;
+    opacity: 0.09;
+    padding: 22px 0 27px;
+    font-size: 20px;
+    height: 74px;
+    border-radius: 0 0 8px 8px;
+    border-color: transparent; }
+    .Home .card .card-footer.active, .Home .card .card-footer:hover {
+      opacity: 1; }
+.Home .Body {
+  padding: 95px 123px;
+  background: #eefafb; }
+  .Home .Body h1 {
+    width: 330px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #142989;
+    margin-bottom: 30px;
+    font-weight: bold; }
+  .Home .Body p {
+    color: #999;
+    width: 490px;
+    font-size: 20px;
+    line-height: 30px; }
+
 /*# sourceMappingURL=index.css.map */

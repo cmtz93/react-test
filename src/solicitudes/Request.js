@@ -45,7 +45,6 @@ export default class Request extends React.Component {
   }
 
   handleKeyPress(e) {
-    console.log(e.key);
     if (e.key == 'Enter') {
       this.props.approved();
     }
